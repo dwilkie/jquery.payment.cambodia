@@ -1,0 +1,24 @@
+{
+  "name": "jquery.payment.cambodia",
+  "version": "0.0.1",
+  "main": "lib/jquery.payment.cambodia.js",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "example",
+    "node_modules",
+    "src",
+    "test",
+    "**/.*",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.payment": ">=1.2.1"
+  },
+  "authors": [
+    "David Wilkie <dwilkie@gmail.com>"
+  ],
+  "description": "Extends jQuery.payment with cards from Cambodia",
+  "license": "MIT",
+  "homepage": "https://github.com/dwilkie/jquery.payment.cambodia"
+}
