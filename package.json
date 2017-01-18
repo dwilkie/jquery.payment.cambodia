@@ -1,33 +1,31 @@
 {
   "name": "jquery.payment.cambodia",
-  "version": "0.0.1",
-  "description": "Extends jQuery.payment with cards from Cambodia",
-  "main": "lib/jquery.payment.cambodia.js",
-  "directories": {
-    "test": "test"
+  "version": "3.0.0",
+  "description": "A general purpose library for building credit card forms, validating inputs and formatting numbers, with support for Cambodian Cards",
+  "keywords": [
+    "payment",
+    "cc",
+    "card"
+  ],
+  "author": "Stripe (https://www.stripe.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwilkie/jquery.payment.cambodia.git"
   },
-  "dependencies": {
-    "bower": "~1.3.12",
-    "cake": "~0.1.1",
-    "jquery.payment": "~1.2.0",
-    "jsdom": "~0.10.6",
-    "jquery": "~2.1.1",
-    "zeptojs": "~1.1.4"
-  },
-  "devDependencies": {
-    "coffee-script": "~1.7.1",
-    "mocha": "~1.18.2"
-  },
+  "main": "lib/jquery.payment.js",
   "scripts": {
     "test": "cake test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dwilkie/jquery.payment.cambodia"
+  "dependencies": {
+    "jquery.payment": "~1.2.0"
   },
-  "author": "David Wilkie",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dwilkie/jquery.payment.cambodia/issues"
+  "devDependencies": {
+    "cake": "~0.1",
+    "coffee-script": "~1.7",
+    "jsdom": "~7.2",
+    "mocha": "~1.18",
+    "uglify-js": "~2.4.24",
+    "zeptojs": "~1.1"
   }
 }

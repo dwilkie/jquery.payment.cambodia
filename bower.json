@@ -1,6 +1,6 @@
 {
   "name": "jquery.payment.cambodia",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "main": "lib/jquery.payment.cambodia.js",
   "ignore": [
     "node_modules",
@@ -13,7 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery.payment": ">=1.2.1"
+    "jquery.payment": ">=3.0.0"
   },
   "authors": [
     "David Wilkie <dwilkie@gmail.com>"
