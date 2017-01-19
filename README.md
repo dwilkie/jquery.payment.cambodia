@@ -35,3 +35,30 @@ Then add the following to your manifest file, e.g. `application.js`:
 //= require jquery.payment
 //= require jquery.payment.cambodia
 ```
+
+## Development
+
+### Install dependencies
+
+```
+$ npm install
+```
+
+### Building
+
+```
+$ cake build
+```
+
+### Testing
+
+```
+$ cake test
+```
+
+### Releasing a new version
+
+1. Update the version number in both `package.json` and `bower.json`
+2. Tag the new version with (include the 'v') `git tag vX.X.X`
+3. Push to github with `git push origin master --tags`
+4. Build a new version of the gem at https://rails-assets.org/
