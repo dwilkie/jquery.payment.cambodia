@@ -1,6 +1,6 @@
 {
   "name": "jquery.payment.cambodia",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A general purpose library for building credit card forms, validating inputs and formatting numbers, with support for Cambodian Cards",
   "keywords": [
     "payment",
