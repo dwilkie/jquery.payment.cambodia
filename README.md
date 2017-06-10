@@ -13,6 +13,7 @@ Please refer to [jQuery.payment](https://github.com/stripe/jquery.payment) for d
 In addition to cards supported natively by [jQuery.payment](https://github.com/stripe/jquery.payment), [jQuery.payment.cambodia](https://github.com/dwilkie/jquery.payment.cambodia) also supports:
 
 * Wing
+* ACLEDA
 
 ## Installation inside a Rails application
 
