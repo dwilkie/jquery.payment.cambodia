@@ -18,7 +18,7 @@
     "test": "cake test"
   },
   "dependencies": {
-    "jquery.payment": "~1.2.0"
+    "jquery.payment": ">=3.0.0"
   },
   "devDependencies": {
     "cake": "~0.1",
