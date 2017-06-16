@@ -59,9 +59,10 @@ $ cake test
 
 ### Releasing a new version
 
-1. Run cake build to build the source
-2. Commit new changes
+1. Run `$ cake build` to build the source
+2. Run the tests `$ cake test`
 3. Update the version number in both `package.json` and `bower.json`
-4. Tag the new version with (include the 'v') `git tag vX.X.X`
-5. Push to github with `git push origin master --tags`
-6. Build a new version of the gem at https://rails-assets.org
+4. Commit new changes
+5. Tag the new version with (include the 'v') `git tag vX.X.X`
+6. Push to github with `git push origin master --tags`
+7. Build a new version of the gem at https://rails-assets.org

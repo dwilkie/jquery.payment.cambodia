@@ -1,6 +1,6 @@
 {
   "name": "jquery.payment.cambodia",
-  "version": "3.0.1",
+  "version": "3.2.0",
   "main": "lib/jquery.payment.cambodia.js",
   "ignore": [
     "node_modules",
